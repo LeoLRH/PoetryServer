@@ -1,0 +1,11 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://120.79.91.114:3306/poetry?characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    username: pig
+    password: 123456789
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
